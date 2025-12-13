@@ -138,24 +138,6 @@ public class Solution {
             }
         }
 
-
-        /*int newLocation = startLocation + rotation;
-        if(newLocation > 0){
-            numPassesZero += newLocation/100;
-            if(startLocation < 0 && rotation > 0){
-                numPassesZero++;
-            }
-            if(newLocation % 100 == 0){
-                numPassesZero--;
-            }
-        }else{
-            if(newLocation != 0 && startLocation > 0 && rotation < 0){
-                numPassesZero++;
-            }
-
-            numPassesZero += -1 * (newLocation/100);
-        }*/
-
         return numPassesZero;
     }
 }
